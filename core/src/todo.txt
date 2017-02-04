@@ -1,0 +1,94 @@
+TODO:
+- Menüs
+    - Splash
+    - Add-Level Funktion ?
+- Menü-Design?
+- Sounds? (Loch)
+- Systemtasten einbinden?
+
+- Serververbindung
+- Highscores to JSON
+
+- GIT REPOSITORY
+
+Fixes:
+- FreeTypeFontGenerator für Widgets
+- "Tap to Start" am Levelstart?
+- Bild ändern (ic_launcher.png x5)
+- Textfield Farbe ändern
+- Keyboard einfahren nach OK
+
+- RAM overflow
+
+- Preferences resetten
+
+Auskommentiert:
+/*
+
+        //Level 1
+        walls = new ArrayList<Wall>();
+
+        walls.add(new Wall(7.5f, 42.0f, 1.0f, 2.5f, world));
+        walls.add(new Wall(4.5f, 39.5f, 2.0f, 1.0f, world));
+        walls.add(new Wall(18.0f, 38.0f, 4.5f, 2.5f, world));
+        walls.add(new Wall(6.5f, 28.0f, 4.0f, 3.5f, world));
+        walls.add(new Wall(18.5f, 20.0f, 4.0f, 3.5f, world));
+        walls.add(new Wall(7.0f, 9.5f, 4.5f, 4.0f, world));
+        walls.add(new Wall(19.5f, 2.5f, 1.0f, 3.0f, world));
+        walls.add(new Wall(22.5f, 4.5f, 2.0f, 1.0f, world));
+
+
+        obstacles = new ArrayList();
+        obstacles.add(new Obstacle(18.0f,30.0f,0.75f,world));
+        obstacles.add(new Obstacle(0.75f, 19.0f, 0.75f, world));
+        obstacles.add(new Obstacle(21.0f,10.0f,0.75f,world));
+        obstacles.add(new Obstacle(7.0f,3.5f,0.75f,world));
+
+        //Level 2
+
+        walls.add(new Wall(13.5f,30.0f,3.0f,1.5f,world));
+        walls.add(new Wall(25.0f,27.5f,2.0f,1.0f,world));
+        walls.add(new Wall(7.5f,20.0f,2.0f,2.5f,world));
+        walls.add(new Wall(25.5f,12.0f,2.0f,1.5f,world));
+
+        //Level 3
+
+        obstacles.add(new Obstacle(18.0f,43.25f,0.75f,world));
+        obstacles.add(new Obstacle(26.0f,32.0f,0.75f,world));
+        obstacles.add(new Obstacle(8.0f,38.0f,0.75f,world));
+        obstacles.add(new Obstacle(5.0f,34.0f,0.75f,world));
+        obstacles.add(new Obstacle(3.0f,23.25f,0.75f,world));
+        obstacles.add(new Obstacle(26.25f,15.0f,0.75f,world));
+        obstacles.add(new Obstacle(12.25f,12.0f,0.75f,world));
+        obstacles.add(new Obstacle(0.75f,0.75f,0.75f,world));
+
+        //Level 4
+
+        obstacles.add(new Obstacle(23.5f,23.0f,0.75f,world));
+        obstacles.add(new Obstacle(11.0f,20.0f,0.75f,world));
+        obstacles.add(new Obstacle(6.0f,16.0f,0.75f,world));
+        obstacles.add(new Obstacle(16.0f,8.0f,0.75f,world));
+        walls.add(new Wall(16.5f,13.5f,1.0f,1.0f,world));
+        walls.add(new Wall(16.0f,4.5f,2.5f,1.0f,world));
+
+
+        //Level 5
+
+        obstacles.add(new Obstacle(14.5f,32.75f,0.75f,world));
+        obstacles.add(new Obstacle(17.5f,24.5f,0.75f,world));
+        obstacles.add(new Obstacle(24.5f,6.25f,0.75f,world));
+        obstacles.add(new Obstacle(15.5f,0.75f,0.75f,world));
+*/
+/*
+        FileHandle file = Gdx.files.local("Level5.json");
+        for (Object wall : walls) {
+            WallObject wallObject = new WallObject((Wall) wall);
+            Json json = new Json();
+            file.writeString(json.toJson(wallObject),true);
+        }
+        for (Object obst:obstacles) {
+            ObstacleObject obstObj = new ObstacleObject((Obstacle) obst);
+            Json json = new Json();
+            file.writeString(json.toJson(obstObj),true);
+        }
+*/
